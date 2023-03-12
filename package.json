@@ -1,0 +1,29 @@
+{
+	"name": "flora",
+	"version": "1.0.0",
+	"description": "A command line utility for flower nerds.",
+	"main": "./bin/index.js",
+	"type": "commonjs",
+	"bin": {
+		"flora": "./bin/index.js"
+	},
+	"scripts": {
+		"start": "node ./bin/index.js",
+		"dev": "nodemon ./bin/index.js",
+		"test": "mocha test",
+		"package": "pkg ./package.json"
+	},
+	"keywords": [],
+	"author": "Refaat/Ether",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^10.0.0"
+	},
+	"devDependencies": {
+		"mocha": "^10.2.0"
+	},
+	"pkg": {
+		"assets": "/src/resources/plants.txt",
+		"outputPath": "./bin"
+	}
+}
