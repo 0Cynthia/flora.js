@@ -49,7 +49,7 @@ A new directory named ``bin`` will be created and it will contain the executable
 
 Ensure that the application is working by running the following command:
 ```
-C:\Users\Ether\flower.js\bin> cli-win.exe random
+C:\Users\Ether\flower.js\bin> flora.exe random
 ```
 
 ## Running the tests
