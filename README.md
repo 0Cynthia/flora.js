@@ -13,22 +13,22 @@ you **must** have <a href="https://nodejs.org/en/">node.js</a> installed on your
 ### Installing
 Clone the repository into a directory
 ```
-C:\Users\Ether\Desktop\flower.js> git clone https://github.com/Ether2003/flora.js .
+C:\Users\Cynthia\Desktop\flower.js> git clone https://github.com/Ether2003/flora.js .
 ```
 
 Install the required NPM packages:
 ```
-C:\Users\Ether\Desktop\flora.js> npm install
+C:\Users\Cynthia\Desktop\flora.js> npm install
 ```
 
 Install flora.js globally on your machine:
 ```
-C:\Users\Ether\Desktop\flora.js> npm install -g .
+C:\Users\Cynthia\Desktop\flora.js> npm install -g .
 ```
 
 Ensure that the application is working correctly by running the following command:
 ```
-C:\Users\Ether> flora random
+C:\Users\Cynthia> flora random
 ```
 
 Your terminal should display a result similar to the following:
@@ -42,26 +42,18 @@ Plant {
 ## Creating An Executable
 You can create a windows, linux, and macos executable by running the following command:
 ```
-C:\Users\Ether\flower.js> npm run package
+C:\Users\Cynthia\flower.js> npm run package
 ```
 
 A new directory named ``bin`` will be created and it will contain the executables.
 
 Ensure that the application is working by running the following command:
 ```
-C:\Users\Ether\flower.js\bin> flora.exe random
+C:\Users\Cynthia\flower.js\bin> flora.exe random
 ```
 
 ## Running the tests
 You can run the included unit tests by runing the following command:
 ```
-C:\Users\Ether\flower.js> npm test
-```
-
-## Direct Download Link
-If you do not wish to install Node.js on your local machine, you can install the executable from my personal website! stayed tuned!
-
-Ensure that the application is working by running the following command:
-```
-C:\path\to\executable> flora.exe random
+C:\Users\Cynthia\flower.js> npm test
 ```
