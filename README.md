@@ -13,7 +13,7 @@ you **must** have <a href="https://nodejs.org/en/">node.js</a> installed on your
 ### Installing
 Clone the repository into a directory
 ```
-C:\Users\Refaat\Desktop\flower.js> git clone https://github.com/Ether2003/flora.js .
+C:\Users\Refaat\Desktop\flower.js> git clone https://github.com/Refaat0/flora.js .
 ```
 
 Install the required NPM packages:
